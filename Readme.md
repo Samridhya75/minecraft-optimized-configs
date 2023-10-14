@@ -57,14 +57,15 @@ If these three values are in green then the server is not lagging. Lower the num
 [SpigotMC](https://www.spigotmc.org)  
 [PaperMC](https://papermc.io)  
 [FabricMC](https://fabricmc.net)  
-[CurseForge](https://www.curseforge.com)  
+[CurseForge](https://www.curseforge.com) 
 
 ## Free Minecraft hosts  
-  
+
 [Aternos](https://aternos.org/:en/)  
 [Falixnodes](https://falixnodes.net)
 
 
 ## Appreciation
 
-If you like the content of the repository, consider starring the repo. Thanks in advance!! 🤗
+If you like the content of the repository, consider starring the repo. Thanks in advance!! 🤗  
+If you face any issues with the configs or find anything broken, feel free to open an issue and i will try to solve the issue. Since the guide is not my original work, i will try my best to communicate the issue to the original author.
