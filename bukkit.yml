@@ -23,10 +23,10 @@ chunk-gc:
 ticks-per:
   animal-spawns: 400
   monster-spawns: 10
-  water-spawns: 10
-  water-ambient-spawns: 10
-  water-underground-creature-spawns: 10
-  axolotl-spawns: 10
-  ambient-spawns: 10
+  water-spawns: 50
+  water-ambient-spawns: 50
+  water-underground-creature-spawns: 50
+  axolotl-spawns: 50
+  ambient-spawns: 50
   autosave: 6000
 aliases: now-in-commands.yml

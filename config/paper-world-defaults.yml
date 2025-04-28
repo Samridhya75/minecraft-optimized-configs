@@ -43,9 +43,24 @@ anticheat:
     lava-obscures: false
     max-block-height: 64
     replacement-blocks:
-    - stone
-    - oak_planks
-    - deepslate
+      - chest
+      - amethyst_block
+      - andesite
+      - budding_amethyst
+      - calcite
+      - coal_ore
+      - deepslate_coal_ore
+      - deepslate
+      - diorite
+      - dirt
+      - emerald_ore
+      - deepslate_emerald_ore
+      - granite
+      - gravel
+      - oak_planks
+      - smooth_basalt
+      - stone
+      - tuff
     update-radius: 2
     use-permission: false
   obfuscation:
@@ -55,14 +70,29 @@ anticheat:
       hide-itemmeta-with-visual-effects: false
 chunks:
   auto-save-interval: default
-  delay-chunk-unloads-by: 10s
+  delay-chunk-unloads-by: 12s
   entity-per-chunk-save-limit:
+    area_effect_cloud: 8
     arrow: 16
+    breeze_wind_charge: 8
+    dragon_fireball: 3
+    egg: 8
     ender_pearl: 8
-    experience_orb: 8
+    experience_bottle: 3
+    experience_orb: 16
+    eye_of_ender: 8
     fireball: 8
-    small_fireball: 4
+    firework_rocket: 8
+    llama_spit: 3
+    splash_potion: 8
+    lingering_potion: 8
+    shulker_bullet: 8
+    small_fireball: 8
     snowball: 8
+    spectral_arrow: 16
+    trident: 16
+    wind_charge: 8
+    wither_skull: 4
   fixed-chunk-inhabited-time: -1
   flush-regions-on-save: false
   max-auto-save-chunks-per-tick: 8
@@ -143,29 +173,29 @@ entities:
     creative-arrow-despawn-rate: default
     despawn-ranges:
       ambient:
-        hard: 56
-        soft: 28
+        hard: 72
+        soft: 30
       axolotls:
-        hard: 56
-        soft: 28
+        hard: 72
+        soft: 30
       creature:
-        hard: 56
-        soft: 28
+        hard: 72
+        soft: 30
       misc:
-        hard: 56
-        soft: 28
+        hard: 72
+        soft: 30
       monster:
-        hard: 56
-        soft: 28
+        hard: 72
+        soft: 30
       underground_water_creature:
-        hard: 56
-        soft: 28
+        hard: 72
+        soft: 30
       water_ambient:
-        hard: 56
-        soft: 28
+        hard: 72
+        soft: 30
       water_creature:
-        hard: 56
-        soft: 28
+        hard: 72
+        soft: 30
     disable-mob-spawner-spawn-egg-transformation: true
     duplicate-uuid:
       mode: SAFE_REGEN
@@ -291,12 +321,17 @@ spawn:
 tick-rates:
   behavior:
     villager:
-      validatenearbypoi: -1
+      validatenearbypoi: 60
+      acquirepoi: 120
   container-update: 1
   grass-spread: 5
   mob-spawner: 10
   sensor:
     villager:
-      secondarypoisensor: 40
+      secondarypoisensor: 80
+      nearestbedsensor: 80
+      villagerbabiessensor: 40
+      playersensor: 40
+      nearestlivingentitysensor: 40
 unsupported-settings:
   fix-invulnerable-end-crystal-exploit: true
